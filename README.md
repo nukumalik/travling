@@ -10,7 +10,7 @@ This is simple CRUD Review API for passing test task from [Travling.id](https://
 ## Prerequiste
 
 -   Node.js
--   MySQL
+-   MongoDB
 
 ## Installation
 
@@ -35,5 +35,5 @@ Please make sure you edit the database (mongodb) uri in .env file before you sta
 
 -   express
 -   bcryptjs
--   mysql
+-   mongoose
 -   multer
