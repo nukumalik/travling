@@ -11,7 +11,6 @@ This is simple CRUD Review API for passing test task from [Travling.id](https://
 
 -   Node.js
 -   MySQL
--   Express
 
 ## Installation
 
@@ -34,6 +33,7 @@ Please make sure you edit the database (mongodb) uri in .env file before you sta
 
 ### Other Depedencies
 
+-   express
 -   bcryptjs
 -   mysql
 -   multer
