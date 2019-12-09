@@ -17,6 +17,11 @@ mongoose
 	.then(() => console.log('MongoDB connected'))
 	.catch(err => console.log(err))
 
+// Index
+app.get('/', (req, res) => {
+	res.send('Welcome to simple CRUD Review API, the routes are /users and /reviews')
+})
+
 // Routes
 app.use(require('./src/config/routes'))
 
